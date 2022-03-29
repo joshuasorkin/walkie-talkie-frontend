@@ -1,3 +1,9 @@
+# Walkie-Talkie Frontend
+This code was created following the instructions at:
+https://www.twilio.com/blog/build-a-browser-based-walkie-talkie-react-twilio-programmable-voice-functions
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
