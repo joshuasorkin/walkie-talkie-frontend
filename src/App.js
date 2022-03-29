@@ -47,10 +47,12 @@ class App extends Component {
   }
 
   connect(){
+    console.log("connecting...");
     const recipient = this.state.identity === 'friend1' ? 'friend2' : 'friend1';
     this.state.device.connect({recipient:recipient});
   }
   disconnect(){
+    console.log("disconnecting...");
     this.state.device.disconnectAll();
   }
 
