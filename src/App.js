@@ -53,6 +53,7 @@ class App extends Component {
   disconnect(){
     this.state.device.disconnectAll();
   }
+//adding comment here to enable another heroku push
 
   // https://walkie-talkie-service-3909-dev.twil.io/call
   setup(event) {
@@ -81,8 +82,8 @@ class App extends Component {
         {
           this.state.ready
           ? <button
-              onMouseDown = {this.connect}
-              onMouseUp = {this.disconnect}>
+              onMouseEnter = {this.connect}
+              onMouseLeave = {this.disconnect}>
               Press to Talk
             </button>
           : <div>
